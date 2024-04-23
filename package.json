@@ -1,0 +1,13 @@
+{
+  "name": "budget",
+  "scripts": {
+    "build": "cd functions && npm ci && npm run build",
+    "deploy": "firebase deploy"
+  },
+  "engines": {
+    "node": "20"
+  },
+  "dependencies": {},
+  "devDependencies": {},
+  "private": true
+}
